@@ -1,0 +1,27 @@
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+} /*FOR IMAGE BACKGROUND TO BE BLACK AND WHITE
+not supported on internet explorer, safari 5.1 or edge 12*/
+
+.btn-fix {
+  padding-top: 10em;
+}
+
+.button-a{
+  color: rgb(51, 48, 48);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: greenyellow;
+  padding: 10px;
+  border-radius: 40px;
+  display: inline-block;
+  border:none;
+  transition: all 0.4s ease 0s;
+}
+
+.button-a:hover{
+  text-shadow: 0px, 0px, 6px, rgba(rgb(94, 192, 138));
+  box-shadow: 0px, 5px, 40px, -10px rgba(0, 0, 0, .57);
+  transition: all .4s ease 0s;
+}
