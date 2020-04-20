@@ -15,7 +15,7 @@ height: 100vh;
   padding-top: 6em;
 }
 .title-pads {
-  padding-bottom: 11rem;
+  padding-bottom: 6rem;
 }
 
 .button-a{
@@ -30,16 +30,21 @@ height: 100vh;
   transition: all 0.4s ease 0s;
 }
 
+.my-img {
+  height: 750px;
+  width: auto;
+  border-radius: 10%;
+}
+
 
 .btn-shadow:hover {
   text-shadow: 0px 0px 16px antiquewhite;
 }
 
 body {
-  background-image: linear-gradient(to bottom, rgba(223,219,219,.5), rgba(121,121,121,.55), rgba(18,18,18,.65), rgba(0,0,0,.8)), 
-  url(./landing-page-backgroundIMG\ copy.png);
+  background-image: linear-gradient(to bottom, rgba(223,219,219,.5), rgba(121,121,121,.55), rgba(18,18,18,.65), rgba(0,0,0,.8));
   background-position: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -48,4 +53,28 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.cslogo {
+  height: 100px;
+  width: 100px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 330px;
+  width: 550px;
+  background-color: rgb(105, 121, 187);
+  border-radius: 10%;
+  box-shadow: 10px 1px 10px rgb(157, 157, 231);
+}
+
+.me-me {
+  text-align: -webkit-center;
 }
