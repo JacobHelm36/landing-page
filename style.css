@@ -5,6 +5,12 @@
   color: greenyellow;
 }
 
+.container-full{
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .bg-cust {
   background: rgb(223,219,219);
 background: linear-gradient(180deg, rgba(223,219,219,1) 0%, rgba(121,121,121,1) 43%, rgba(18,18,18,1) 82%, rgba(0,0,0,1) 100%);
@@ -77,4 +83,16 @@ body {
 
 .me-me {
   text-align: -webkit-center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.card-img {
+  height: 500px;
+  width: 100%;
 }
