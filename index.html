@@ -17,7 +17,7 @@
 
 </head>
 <body>
-  <header class="fluid-container text-center container-full">
+  <header class="container-fluid text-center">
     <div class="row text-center">
       <div class="col-6 col-md-12">
         <h4 class="ext-green"></h4>
@@ -42,8 +42,18 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-12 text-center">
-      <h3 class="text-white">Skills</h3>
+      <div class="col-12 display-4 text-center text-white">Skills</div>
+        <ul class="col-12 list-group p-0 icon-row">
+          <li class="display-2 p-2"><i class="fab fa-html5"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-js-square"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-css3-alt"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-node"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-vuejs"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-github-square"></i></li>
+          <li class="display-2 p-2"><i class="fab fa-npm"></i></li>
+          <li class="display-2 p-2"><img src="./pngwave.png"></li>
+        </ul>
+      </div>
     </div>
   </div>
     <div class="row pb-3">
@@ -137,9 +147,9 @@
     </div>
   </main>
   <footer>
-    <div class="container container-full">
-      <div class="row center">
-        <button type="button" class="btn btn-primary mt-5 mb-5" data-toggle="modal" data-target="#exampleModalCenter">
+    <div class="container-fluid">
+      <div class="row center mb-5">
+        <button type="button" class="button mt-5" data-toggle="modal" data-target="#exampleModalCenter">
           Contact Me
         </button>
       </div>
@@ -168,34 +178,6 @@
     </div>
   </footer>
   
-  <!-- Modal -->
-  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Projects</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h4>Skulpt</h4>
-          <a href="https://skulpt.herokuapp.com/" target="_blank" role="button">
-            Live application
-          </a>
-          <h4></h4>
-          <h1><a type="link" href="https://github.com/AliciaGilfoy" target="_blank"><i
-                class="fab fa-github-square text-dark"></i></a>
-            <a type="link" href="https://www.linkedin.com/in/alicia-gilfoy" target="_blank"><i
-                class="fab fa-linkedin text-dark"></i></a>
-          </h1>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-<!--<script src="./app/main.js" type="module"></script> for the controller-->
 <script src="app.js"></script>
 </body>
 </html>
