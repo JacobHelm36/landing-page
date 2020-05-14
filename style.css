@@ -55,19 +55,26 @@ body {
   background-repeat: no-repeat;
 }
 
-.list-group {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+ul {
+  text-align: center;
 }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
 
 .carousel-item {
   height: 500px;
 }
 
-.cslogo {
-  height: 100px;
-  width: 100px;
+ul li img {
+  height: 90px;
+  width: 90px;
+  filter: opacity(75%);
+  padding-top: 5px
 }
 
 .about-me {
