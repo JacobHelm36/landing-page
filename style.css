@@ -37,8 +37,10 @@ height: 100vh;
 }
 
 .my-img {
-  height: 750px;
-  width: auto;
+  min-height: 320px;
+  max-height: 750px;
+  min-width: 40%;
+  max-width: 60%;
   border-radius: 10%;
 }
 
@@ -51,23 +53,15 @@ body {
   background-image: linear-gradient(to bottom, rgba(223,219,219,.5), rgba(121,121,121,.55), rgba(18,18,18,.65), rgba(0,0,0,.8));
   background-position: center;
   height: 100%;
-  width: 100%;
+  min-width: 100%;
+  max-width:100%;
   background-repeat: no-repeat;
 }
 
-ul {
-  text-align: center;
-}
-
 li {
-  display: inline-block;
+  display: inline-grid;
   list-style-type: none;
   text-align: center;
-}
-
-
-.carousel-item {
-  height: 500px;
 }
 
 ul li img {
@@ -78,14 +72,12 @@ ul li img {
 }
 
 .about-me {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 515px;
-  width: 550px;
+  padding: 15px;
   background-color: rgb(105, 121, 187);
   border-radius: 10%;
   box-shadow: 10px 1px 10px rgb(157, 157, 231);
+  color: white;
+  
 }
 
 .me-me {
@@ -99,8 +91,13 @@ ul li img {
   height: 100px;
 }
 
+.carousel-item {
+  min-height: 300px;
+  max-height:400px
+}
+
 .card-img {
-  height: 500px;
+  height: 39vh;
   width: 100%;
 }
 
