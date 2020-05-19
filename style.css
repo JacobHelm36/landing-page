@@ -69,6 +69,8 @@ ul li img {
 }
 
 .about-me {
+  min-width: 20rem;
+  max-width:35rem;
   padding: 15px;
   background-color: rgb(105, 121, 187);
   border-radius: 10%;
